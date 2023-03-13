@@ -1,0 +1,31 @@
+
+    <div class="form-container mt-9 col-12 "> 
+        <div class="heading heading--left col-lg-5">
+            <span class="eyebrow">{{ module.section_headings.eyebrow }}</span>
+            <h2 class="heading--title">{{ module.section_headings.title }}</h2>
+            <p class="heading--paragraph">{{ module.section_headings.title_copy }}</p>
+        </div>
+        <form class="form-wrapper col-lg-6 offset-1">
+            <div class="heading heading--left">
+                <span class="eyebrow">{{ module.form_headings.eyebrow }}</span>
+                <h3 class="heading--title">{{ module.form_headings.title }}</h3>
+                <p class="heading--paragraph">{{ module.form_headings.title_copy }}</p>
+            </div>
+            <div class="input-wrapper"><input type="text" placeholder="Name" maxlength="50" minlength="2" required=""></div>
+            <div class="input-wrapper"><input type="password" placeholder="Password" maxlength="50" minlength="2"></div>
+            <div class="input-wrapper"><input type="email" placeholder="Email" maxlength="50" minlength="2"></div>
+            <div class="input-wrapper"><textarea class="textarea" maxlength="50" placeholder="Placeholder.." rows="8"></textarea></div>
+            <div class="checkbox-container input-wrapper">
+                <input id="Remember me" type="checkbox" name="test">
+                <label for="Remember me">I agree to Company sending me marketing communications, as described in the Website Data Useage and Cookie Policy.</label>
+            </div>
+            <button type="submit" class="button button--primary button--primary__large">
+                Submission text
+                <div class="icon-container-md c-white button-icon--right">
+                    <svg>
+                        <use xlink:href="#sprite_icon-arrow-right"></use>
+                    </svg>
+                </div> 
+            </button>        
+        </form>
+    </div>

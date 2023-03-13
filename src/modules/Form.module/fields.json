@@ -1,0 +1,105 @@
+[ {
+  "id" : "475df4fc-0344-c23f-ef78-0e59f75aa0b8",
+  "name" : "section_headings",
+  "display_width" : null,
+  "label" : "Section headings",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "f4f11ea3-659e-c117-d41f-ec24989610e5",
+    "name" : "eyebrow",
+    "display_width" : null,
+    "label" : "Eyebrow",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "EYEBROW"
+  }, {
+    "id" : "c159cd1c-2b09-5050-2126-878495d5ec02",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "H2 Title header text Lorem ipsum dolor sit amet."
+  }, {
+    "id" : "bb0b5db1-d047-3377-dd91-c2872969fe63",
+    "name" : "title_copy",
+    "display_width" : null,
+    "label" : "Title copy",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Body - Ultrices phasellus cras pretium in lorem quis. Et id dictumst tortor viverra nam aliquam nunc elementum. Congue tincidunt quam tincidunt dictum."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "eyebrow" : "EYEBROW",
+    "title" : "H2 Title header text Lorem ipsum dolor sit amet.",
+    "title_copy" : "Body - Ultrices phasellus cras pretium in lorem quis. Et id dictumst tortor viverra nam aliquam nunc elementum. Congue tincidunt quam tincidunt dictum."
+  }
+}, {
+  "id" : "9d15ece3-1384-644b-febd-e756158906ba",
+  "name" : "form_headings",
+  "display_width" : null,
+  "label" : "Form headings",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "ba14adb5-2da2-748c-4f71-9f14d5738902",
+    "name" : "eyebrow",
+    "display_width" : null,
+    "label" : "Eyebrow",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "EYEBROW"
+  }, {
+    "id" : "fa7f96f7-9fad-b533-ff76-1d211d6d66dc",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "H2 Title header text Lorem ipsum dolor sit amet."
+  }, {
+    "id" : "db46be5d-9aaf-15a0-6479-727b3ab61e26",
+    "name" : "title_copy",
+    "display_width" : null,
+    "label" : "Title copy",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Body - Ultrices phasellus cras pretium in lorem quis. Et id dictumst tortor viverra nam aliquam nunc elementum. Congue tincidunt quam tincidunt dictum."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "eyebrow" : "EYEBROW",
+    "title" : "H2 Title header text Lorem ipsum dolor sit amet.",
+    "title_copy" : "Body - Ultrices phasellus cras pretium in lorem quis. Et id dictumst tortor viverra nam aliquam nunc elementum. Congue tincidunt quam tincidunt dictum."
+  }
+} ]

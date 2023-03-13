@@ -1,0 +1,345 @@
+[ {
+  "id" : "ff8203aa-f96a-6885-7054-a9dd08601406",
+  "name" : "logos_group",
+  "display_width" : null,
+  "label" : "Logos group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "63cdf91f-6f97-d259-0b7d-8280db0d9b7a",
+    "name" : "image_1",
+    "display_width" : null,
+    "label" : "Image-1",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "4ece286b-8d7a-4db5-51e0-6587d65026be",
+    "name" : "image_2",
+    "display_width" : null,
+    "label" : "Image-2",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "739364ab-2c8d-aae4-3342-45454981d590",
+    "name" : "image_3",
+    "display_width" : null,
+    "label" : "Image-3",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "e1d0fb6f-8800-73d9-f714-37f4613c22d8",
+    "name" : "image_4",
+    "display_width" : null,
+    "label" : "Image-4",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "11210763-b113-d376-0778-4a94945a2ca1",
+    "name" : "image_5",
+    "display_width" : null,
+    "label" : "Image-5",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "4d27e70b-a2a7-32a9-72d3-8555107a532d",
+    "name" : "image_6",
+    "display_width" : null,
+    "label" : "Image-6",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "1783fd3a-0136-4a06-16d6-74a90c281c73",
+    "name" : "image_7",
+    "display_width" : null,
+    "label" : "Image-7",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "0b16ec32-022f-95dc-8d11-f793b2b3e304",
+    "name" : "image_8",
+    "display_width" : null,
+    "label" : "Image-8",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }, {
+    "id" : "89bafd47-0d02-c3d1-d821-4ca3b14e6002",
+    "name" : "image_9",
+    "display_width" : null,
+    "label" : "Image-9",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "image_1" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_2" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_3" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_4" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_5" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_6" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_7" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_8" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    },
+    "image_9" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }
+}, {
+  "id" : "b4b1a8b6-5334-9c38-032e-b063a6f74cf3",
+  "name" : "logos_heading",
+  "display_width" : null,
+  "label" : "Logos heading",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "1c920677-3f5d-598b-ab49-bd9e83a66f1b",
+    "name" : "eyebrow",
+    "display_width" : null,
+    "label" : "Eyebrow",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "EYEBROW"
+  }, {
+    "id" : "9162dc3b-f535-108a-688a-5006e7b2e4aa",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "29f94991-f361-591d-2a3a-94b6291bc0fa",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "eyebrow" : "EYEBROW",
+    "title" : "Apex title",
+    "paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }
+} ]

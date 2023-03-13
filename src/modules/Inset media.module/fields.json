@@ -1,0 +1,34 @@
+[ {
+  "id" : "d1a3159b-cf64-680f-1ae8-76cddf0a3f47",
+  "name" : "caption_field",
+  "display_width" : null,
+  "label" : "Caption",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Caption text lorem ipsum"
+}, {
+  "id" : "ba7c07d5-b5bf-2854-5e7a-8d427029e649",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+    "alt" : "Image Area (right side)",
+    "loading" : "lazy",
+    "width" : 568,
+    "height" : 516,
+    "max_width" : 568,
+    "max_height" : 516
+  }
+} ]

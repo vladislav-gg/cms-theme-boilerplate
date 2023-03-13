@@ -1,0 +1,108 @@
+[ {
+  "id" : "2d6b09e9-4e59-671a-6e2c-79f69465065b",
+  "name" : "styles",
+  "display_width" : null,
+  "label" : "Styles",
+  "required" : false,
+  "locked" : true,
+  "children" : [ {
+    "id" : "1a4e94ac-35ff-f223-9fba-58acaa655d07",
+    "name" : "image_right",
+    "display_width" : null,
+    "label" : "image_right",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "image_right" : false
+  }
+}, {
+  "id" : "9351e04a-a882-8245-4de3-317e564a2a59",
+  "name" : "card_headings",
+  "display_width" : null,
+  "label" : "Card headings",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "2c916982-866c-ecec-342a-3952fa07ec9a",
+    "name" : "eyebrow",
+    "display_width" : null,
+    "label" : "EYEBROW",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "EYEBROW"
+  }, {
+    "id" : "5c8fcf50-29c3-1381-3470-3aeb7c3ef65e",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Jato title"
+  }, {
+    "id" : "38ba0a16-5449-9e27-845b-6d7edd91fa43",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor "
+  }, {
+    "id" : "82c4ff5c-7367-a4b9-825d-1e6f7e4e72c9",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/GettyImages-932691626%201.png",
+      "alt" : "GettyImages-932691626 1",
+      "loading" : "lazy",
+      "width" : 1167,
+      "height" : 600,
+      "max_width" : 1167,
+      "max_height" : 600
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "eyebrow" : "EYEBROW",
+    "title" : "Jato title",
+    "paragraph" : "Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor Lorem ipsum dolor ",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/GettyImages-932691626%201.png",
+      "alt" : "GettyImages-932691626 1",
+      "loading" : "lazy",
+      "width" : 1167,
+      "height" : 600,
+      "max_width" : 1167,
+      "max_height" : 600
+    }
+  }
+} ]

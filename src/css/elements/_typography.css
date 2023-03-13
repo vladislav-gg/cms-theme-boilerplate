@@ -1,88 +1,30 @@
-body {
-  line-height: 1.4;
-  overflow-wrap: break-word;
+@font-face {
+	font-family: 'Fa-solid';
+	src: url("https://26811811.fs1.hubspotusercontent-eu1.net/hubfs/26811811/fonts/fa-solid-900.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 900
 }
 
-html[lang^="ja"] body,
-html[lang^="zh"] body,
-html[lang^="ko"] body {
-  line-break: strict;
-  overflow-wrap: normal;
-  word-break: break-all;
+@font-face {
+	font-family: 'Fa-solid';
+	src: url("https://26811811.fs1.hubspotusercontent-eu1.net/hubfs/26811811/fonts/fa-light-300.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 300
 }
 
-/* Paragraphs */
-
-p {
-  font-size: 1rem;
-  margin: 0 0 1.4rem;
+@font-face {
+	font-family: 'Helvetica neue';
+	src: url("https://26811811.fs1.hubspotusercontent-eu1.net/hubfs/26811811/fonts/HelveticaNeueLTW1G-BdEx.woff2") format("woff2");
+	font-style: normal;
+	font-weight: 500
 }
 
-/* Anchors */
-
-a {
-  cursor: pointer;
+body, h1, h2, h3, h4, h5, h6 {
+  font-family:  'Helvetica neue', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+			Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji' !important;
 }
 
-/* Headings */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 0 1.4rem;
-}
-
-/* Lists */
-
-ul,
-ol {
-  margin: 0 0 1.4rem;
-}
-
-ul ul,
-ol ul,
-ul ol,
-ol ol {
-  margin: 0;
-}
-
-ul.no-list {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-/* Code blocks */
-
-pre {
-  overflow: auto;
-}
-
-code {
-  vertical-align: bottom;
-}
-
-/* Blockquotes */
-
-blockquote {
-  border-left: 2px solid;
-  margin: 0 0 1.4rem;
-  padding-left: 0.7rem;
-}
-
-/* Horizontal rules */
-
-hr {
-  border: none;
-  border-bottom: 1px solid #CCC;
-}
-
-/* Image alt text */
-
-img {
-  font-size: 0.583rem;
-  word-break: normal;
+p, span, button, button > div, a, label, div {
+  font-family:  'Fa-solid', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue',
+			Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji' !important;
 }

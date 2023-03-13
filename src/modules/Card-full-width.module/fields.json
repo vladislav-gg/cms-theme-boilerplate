@@ -1,0 +1,82 @@
+[ {
+  "id" : "81149be8-3ea1-9b5c-b584-1b773bcfac2f",
+  "name" : "eyebrow",
+  "display_width" : null,
+  "label" : "Eyebrow",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "EYEBROW"
+}, {
+  "id" : "5618f0f7-e2ea-cd58-c67f-0a34921e1f54",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : true,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Apex title"
+}, {
+  "id" : "a633af32-00d0-f405-10c8-f02ace5ac6f0",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "P - Ultrices phasellus cras pretium in lorem quis. Et id dictumst tortor viverra nam aliquam nunc elementum. Congue tincidunt quam tincidunt dictum."
+}, {
+  "id" : "5d6bfa0b-506d-8ca6-932e-a7ceb9bd5696",
+  "name" : "card_image",
+  "display_width" : null,
+  "label" : "Card image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+    "alt" : "Screenshot 2022-12-08 at 12.58 1",
+    "loading" : "lazy",
+    "width" : 1920,
+    "height" : 1080,
+    "max_width" : 1920,
+    "max_height" : 1080
+  }
+}, {
+  "id" : "96e39d21-c6eb-f79c-f08b-51dbc514dac4",
+  "name" : "button_1_text",
+  "display_width" : null,
+  "label" : "button_1_text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Button"
+}, {
+  "id" : "7213a8f0-0e49-fc0e-4b2a-7eec4e432cdf",
+  "name" : "button_2",
+  "display_width" : null,
+  "label" : "button_2",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Call-to-action"
+} ]

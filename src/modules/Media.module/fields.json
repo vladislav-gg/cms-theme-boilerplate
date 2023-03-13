@@ -1,0 +1,22 @@
+[ {
+  "id" : "a63688c6-b146-381b-49de-f5f60e97f092",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+    "alt" : "Screenshot 2022-12-08 at 12.58 1",
+    "loading" : "lazy",
+    "width" : 1920,
+    "height" : 1080,
+    "max_width" : 1920,
+    "max_height" : 1080
+  }
+} ]

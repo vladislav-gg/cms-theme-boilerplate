@@ -2,42 +2,181 @@
   templateType: global_partial
   label: Footer
 -->
-<footer class="footer">
-  {% dnd_area "footer"
-    label="Footer",
-    class="footer__container content-wrapper"
-  %}
+<div class="container">
 
-    {# Social follow and copyright #}
+  <footer class="footer">
+    <div class="footer__logo">
+      <img src="data:image/svg+xml,%3Csvg width='137' height='56' viewBox='0 0 137 56' fill='currentColor' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 56V27.2825L13.8305 38.9305L46.7613 0V56H0ZM65.9044 19L57 43.3478H61.6609L63.6435 37.713H73.1391L75.087 43.3478H79.8174L70.913 19H65.9044ZM71.9217 34.2348H64.8609L68.3739 24.113L71.9217 34.2348ZM81.5581 26.0957V51H86.0103V40.9826C86.6132 41.8638 87.4016 42.5478 88.3755 43.0348C89.3494 43.5217 90.4856 43.7652 91.7842 43.7652C93.4074 43.7652 94.8567 43.3826 96.132 42.6174C97.4074 41.829 98.4161 40.7623 99.1581 39.4174C99.9001 38.0493 100.271 36.4957 100.271 34.7565C100.271 33.0174 99.9001 31.4638 99.1581 30.0957C98.4161 28.7275 97.4074 27.6493 96.132 26.8609C94.8567 26.0725 93.4074 25.6783 91.7842 25.6783C90.3233 25.6783 89.1291 25.9681 88.2016 26.5478C87.2972 27.1275 86.5668 27.8 86.0103 28.5652L85.5233 26.0957H81.5581ZM94.3581 38.4435C93.4306 39.3942 92.2596 39.8696 90.8451 39.8696C89.4074 39.8696 88.2248 39.3942 87.2972 38.4435C86.3929 37.4696 85.9407 36.229 85.9407 34.7217C85.9407 33.2145 86.3929 31.9855 87.2972 31.0348C88.2248 30.0609 89.4074 29.5739 90.8451 29.5739C92.2596 29.5739 93.4306 30.0609 94.3581 31.0348C95.2856 32.0087 95.7494 33.2493 95.7494 34.7565C95.7494 36.2638 95.2856 37.4928 94.3581 38.4435ZM110.343 43.7652C108.604 43.7652 107.062 43.3942 105.717 42.6522C104.372 41.9101 103.317 40.8667 102.552 39.5217C101.787 38.1768 101.404 36.6232 101.404 34.8609C101.404 33.0754 101.775 31.487 102.517 30.0957C103.283 28.7043 104.326 27.6261 105.648 26.8609C106.993 26.0725 108.57 25.6783 110.378 25.6783C112.071 25.6783 113.567 26.0493 114.865 26.7913C116.164 27.5333 117.172 28.5536 117.891 29.8522C118.633 31.1275 119.004 32.5536 119.004 34.1304C119.004 34.3855 118.993 34.6522 118.97 34.9304C118.97 35.2087 118.958 35.4986 118.935 35.8H105.822C105.914 37.1449 106.378 38.2 107.213 38.9652C108.071 39.7304 109.103 40.113 110.309 40.113C111.213 40.113 111.967 39.9159 112.57 39.5217C113.196 39.1043 113.659 38.571 113.961 37.9217H118.483C118.158 39.0116 117.613 40.0087 116.848 40.913C116.106 41.7942 115.178 42.4899 114.065 43C112.975 43.5101 111.735 43.7652 110.343 43.7652ZM110.378 29.2957C109.288 29.2957 108.326 29.6087 107.491 30.2348C106.656 30.8377 106.123 31.7652 105.891 33.0174H114.483C114.413 31.8812 113.996 30.9768 113.23 30.3043C112.465 29.6319 111.514 29.2957 110.378 29.2957ZM124.465 34.7217L118.204 43.3478H122.97L127.352 37.2261L131.7 43.3478H136.5L130.204 34.7217L136.5 26.0957H131.7L127.352 32.2174L122.97 26.0957H118.204L124.465 34.7217Z' fill='currentColor'/%3E%3C/svg%3E%0A" alt="The Marketing Practice" class="logo" />
+    </div>
+    <div class="divider-horizontal py-4 visible-line">
+      <div class="line"></div>
+    </div>
+    <div class="footer__navigation">
+      <ul class="footer__main-menu">
+        <li class="menu-item">
+          <a class="footer__title" href="">Our solutions page</a>
+          <ul class="sub-menu">
+            <li class="footer__list-item">
+              <a href="">Real Identity Platform</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Verification Suite</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Company Studio</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Company Atlas</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Smart Capture SDK</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a class="footer__title" href="">Lorem ipsum dolor ipsum</a>
+          <ul class="sub-menu">
+            <li class="footer__list-item">
+              <a href="">Compliance</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Customer acquisition</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Reducing cost of acquisition</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Fraud prevention</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a class="footer__title" href="">News</a>
+          <ul class="sub-menu">
+            <li class="footer__list-item">
+              <a href="">Financial services</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Gaming</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Healthcare</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Marketplaces &amp; communities</a>
+            </li>
+            <li class="footer__list-item">
+              <a href="">Retail &amp; eCommerce</a>
+            </li>
+            <li class="footer__list-item"><a href="">Telecommunications</a>
+            </li>
+            <li class="footer__list-item"><a href="">Transport</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a class="footer__title" href="">Departments </a>
+          <ul class="sub-menu">
+            <li class="footer__list-item"><a href="">Supported documents</a>
+            </li>
+            <li class="footer__list-item"><a href="">About Company</a>
+            </li>
+            <li class="footer__list-item"><a href="">Why Company?</a>
+            </li>
+            <li class="footer__list-item"><a href="">Company partners</a>
+            </li>
+            <li class="footer__list-item"><a href="">Press</a>
+            </li>
+            <li class="footer__list-item"><a href="">Contact us</a>
+            </li>
+            <li class="footer__list-item"><a href="">Resources</a>
+            </li>
+            <li class="footer__list-item"><a href="">Support</a>
+            </li>
+            <li class="footer__list-item"><a href="">Sign in</a>
+            </li>
+          </ul>
+        </li>
+        <li class="menu-item">
+          <a class="footer__title" href="">Transparency</a>
+          <ul class="sub-menu">
+            <li class="footer__list-item"><a href="">Developer hub</a>
+            </li>
+            <li class="footer__list-item"><a href="">API reference</a>
+            </li>
+            <li class="footer__list-item"><a href="">Release notes</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer-media-container">
+        <div class="footer-media">
+          <div class="footer__follow-us">Follow us:</div>
+          <a class="footer__icon-link" href="https://www.linkedin.com">
+            <div class="icon-container-md c-black social">
+              <svg>
+                <use xlink:href="#sprite_icon-linkedin"></use>
+              </svg>
+            </div>
+          </a>
+          <a class="footer__icon-link" href="https://www.linkedin.com">
+            <div class="icon-container-md c-black social">
+              <svg>
+                <use xlink:href="#sprite_icon-facebook"></use>
+              </svg>
+            </div>
+          </a>
+          <a class="footer__icon-link" href="https://www.linkedin.com">
+            <div class="icon-container-md c-black social">
+              <svg>
+                <use xlink:href="#sprite_icon-instagram"></use>
+              </svg>
+            </div>
+          </a>
+        </div>
+        <a class="back-to-top" href="#">
+          Back to top
+          <div class="icon-container-md c-black">
+            <svg>
+              <use xlink:href="#sprite_icon-arrow-chevron-up"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+        <div class="footer-bottom-wrapper">
+        <div class="divider-horizontal py-4 visible-line">
+            <div class="line"></div>
+        </div>
+        <div class="footer__copyright">
+            © Company, 2022. All rights reserved. Company registration number:
+            07479524.
+        </div>
 
-    {% dnd_section %}
-      {% dnd_column %}
-        {% dnd_row %}
-          {% dnd_module path="../../modules/social-follow" %}
-            {% module_attribute "social_link" is_json=True %}
-              [
-                {"social_account": "facebook-f"},
-                {"social_account": "linkedin-in"},
-                {"social_account": "twitter"},
-                {"social_account": "instagram"}
-              ]
-            {% end_module_attribute %}
-          {% end_dnd_module %}
-        {% end_dnd_row %}
-        {% dnd_row
-          margin={
-            "top": 12,
-            "bottom": 12
-          }
-        %}
-          {% dnd_module
-            path="@hubspot/rich_text",
-            html='<div style="text-align: center; font-size: 0.7rem;"><span>© {{ year }} All rights reserved.</span></div>'
-          %}
-          {% end_dnd_module %}
-        {% end_dnd_row %}
-      {% end_dnd_column %}
-    {% end_dnd_section %}
-
-  {% end_dnd_area %}
-</footer>
+        <ul class="footer__meta-menu">
+            <li class="menu-item">
+            <ul class="footer__meta-menu--sub-menu">
+                <li class="footer__inline-list-item">
+                <a href="">Service status</a>
+                </li>
+                <li class="footer__inline-list-item">
+                <a href="">Privacy</a>
+                </li>
+                <li class="footer__inline-list-item">
+                <a href="">Security and Compliance</a>
+                </li>
+                <li class="footer__inline-list-item">
+                <a href="">Company Website and Cookie Policy</a>
+                </li>
+                <li class="footer__inline-list-item">
+                <a href="">Slavery Statement</a>
+                </li>
+                <li class="footer__inline-list-item">
+                <a href="">Responsible Security Bug Disclosure</a>
+                </li>
+            </ul>
+            </li>
+        </ul>
+        </div>
+    </footer>
+</div>

@@ -1,0 +1,329 @@
+[ {
+  "id" : "42ce7d2d-ae3f-e454-5eb2-3aef6b186aca",
+  "name" : "first_card",
+  "display_width" : null,
+  "label" : "First card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "f73128d9-f1ea-1d26-eacf-9da049c4532d",
+    "name" : "card_title",
+    "display_width" : null,
+    "label" : "Card title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Eu accumsan, sed sollicitudin adipiscing sem"
+  }, {
+    "id" : "c2650bee-2522-e42c-3c30-1caef13b970f",
+    "name" : "card_paragraph",
+    "display_width" : null,
+    "label" : "Card paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit integer a                            posuere consectetur pobortis arcu porttitor eget nisl neque."
+  }, {
+    "id" : "1d730c84-5b8f-07dc-0544-b5eacf5a8341",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+      "alt" : "Screenshot 2022-12-08 at 12.58 1",
+      "loading" : "lazy",
+      "width" : 1920,
+      "height" : 1080,
+      "max_width" : 1920,
+      "max_height" : 1080
+    }
+  }, {
+    "id" : "257051bc-7e71-73f4-dc06-caa386c56556",
+    "name" : "avatar_image",
+    "display_width" : null,
+    "label" : "Avatar image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "card_title" : "Eu accumsan, sed sollicitudin adipiscing sem",
+    "card_paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit integer a                            posuere consectetur pobortis arcu porttitor eget nisl neque.",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+      "alt" : "Screenshot 2022-12-08 at 12.58 1",
+      "loading" : "lazy",
+      "width" : 1920,
+      "height" : 1080,
+      "max_width" : 1920,
+      "max_height" : 1080
+    },
+    "avatar_image" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  }
+}, {
+  "id" : "61cdcccc-cfd4-4b4a-559d-279583e93dc8",
+  "name" : "second_card",
+  "display_width" : null,
+  "label" : "Second card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4377535d-a8ac-3db6-f689-03835a05e958",
+    "name" : "card_title",
+    "display_width" : null,
+    "label" : "Card title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Eu accumsan, sed sollicitudin adipiscing sem"
+  }, {
+    "id" : "c4a817e5-2433-54e7-165e-b6f6a8ce6a5a",
+    "name" : "card_paragraph",
+    "display_width" : null,
+    "label" : "Card paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit integer a                            posuere consectetur pobortis arcu porttitor eget nisl neque."
+  }, {
+    "id" : "18292d1b-2f2b-5afb-0766-bf89554b722a",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+      "alt" : "Screenshot 2022-12-08 at 12.58 1",
+      "loading" : "lazy",
+      "width" : 1920,
+      "height" : 1080,
+      "max_width" : 1920,
+      "max_height" : 1080
+    }
+  }, {
+    "id" : "a45ba6af-d3c2-c745-7abf-45269dc9a801",
+    "name" : "avatar_image",
+    "display_width" : null,
+    "label" : "Avatar image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Accenture-Life-Trends-2023-313x313.jpg",
+      "alt" : "Accenture-Life-Trends-2023-313x313",
+      "loading" : "lazy",
+      "width" : 313,
+      "height" : 313,
+      "max_width" : 313,
+      "max_height" : 313
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "card_title" : "Eu accumsan, sed sollicitudin adipiscing sem",
+    "card_paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit integer a                            posuere consectetur pobortis arcu porttitor eget nisl neque.",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+      "alt" : "Screenshot 2022-12-08 at 12.58 1",
+      "loading" : "lazy",
+      "width" : 1920,
+      "height" : 1080,
+      "max_width" : 1920,
+      "max_height" : 1080
+    },
+    "avatar_image" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Accenture-Life-Trends-2023-313x313.jpg",
+      "alt" : "Accenture-Life-Trends-2023-313x313",
+      "loading" : "lazy",
+      "width" : 313,
+      "height" : 313,
+      "max_width" : 313,
+      "max_height" : 313
+    }
+  }
+}, {
+  "id" : "25a39106-f393-db0a-9996-bd7fc984218d",
+  "name" : "layout",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "7187c4af-380a-8ef5-03a3-3f09157fa0a5",
+    "name" : "choice_field",
+    "display_width" : null,
+    "label" : "Choice",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "Content right", "Content right" ], [ "Content left", "Content left" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice"
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+}, {
+  "id" : "eb3344f4-cb21-7e57-8ca2-eea647f8b870",
+  "name" : "third_card",
+  "display_width" : null,
+  "label" : "Third card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "a2e3040c-c2b8-a71d-bc4a-a5d57c4a930b",
+    "name" : "card_title",
+    "display_width" : null,
+    "label" : "Card title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Eu accumsan, sed sollicitudin adipiscing sem"
+  }, {
+    "id" : "56443995-e616-0c72-54b3-25f10de7e98b",
+    "name" : "card_paragraph",
+    "display_width" : null,
+    "label" : "Card paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit integer a                            posuere consectetur pobortis arcu porttitor eget nisl neque."
+  }, {
+    "id" : "0eade9c3-762d-2d83-c7a1-458b8ebf2d1d",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+      "alt" : "Screenshot 2022-12-08 at 12.58 1",
+      "loading" : "lazy",
+      "width" : 1920,
+      "height" : 1080,
+      "max_width" : 1920,
+      "max_height" : 1080
+    }
+  }, {
+    "id" : "6850fe09-cff6-c409-f7b3-379ee89fd98b",
+    "name" : "avatar_image",
+    "display_width" : null,
+    "label" : "Avatar image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Accenture-Life-Trends-2023-313x313.jpg",
+      "alt" : "Accenture-Life-Trends-2023-313x313",
+      "loading" : "lazy",
+      "width" : 313,
+      "height" : 313,
+      "max_width" : 313,
+      "max_height" : 313
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "card_title" : "Eu accumsan, sed sollicitudin adipiscing sem",
+    "card_paragraph" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit integer a                            posuere consectetur pobortis arcu porttitor eget nisl neque.",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Screenshot%202022-12-08%20at%2012.58%201.png",
+      "alt" : "Screenshot 2022-12-08 at 12.58 1",
+      "loading" : "lazy",
+      "width" : 1920,
+      "height" : 1080,
+      "max_width" : 1920,
+      "max_height" : 1080
+    },
+    "avatar_image" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Accenture-Life-Trends-2023-313x313.jpg",
+      "alt" : "Accenture-Life-Trends-2023-313x313",
+      "loading" : "lazy",
+      "width" : 313,
+      "height" : 313,
+      "max_width" : 313,
+      "max_height" : 313
+    }
+  }
+} ]

@@ -1,0 +1,49 @@
+[ {
+  "id" : "94504c78-0422-6355-b3b5-7f306f9f998e",
+  "name" : "eyebrow",
+  "display_width" : null,
+  "label" : "Eyebrow",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "EYEBROW"
+}, {
+  "id" : "e9925390-3e55-9f85-9b56-57cc4ade2d8a",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Apex title"
+}, {
+  "id" : "e2e8e9e3-bd34-6e30-dada-fe63bdaa05fd",
+  "name" : "paragraph",
+  "display_width" : null,
+  "label" : "Paragraph",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris"
+}, {
+  "id" : "32f3ace2-7a4d-5039-3adc-be8c402a6083",
+  "name" : "button_text",
+  "display_width" : null,
+  "label" : "Button-text",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Call-to-action"
+} ]

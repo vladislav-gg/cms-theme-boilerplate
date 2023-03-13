@@ -1,0 +1,211 @@
+[ {
+  "id" : "0344fe25-0e88-4fcf-2a50-bfe8960bed3b",
+  "name" : "first_card",
+  "display_width" : null,
+  "label" : "First card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "b7106d17-3054-5c1e-bdab-459093bb9c3a",
+    "name" : "card_title",
+    "display_width" : null,
+    "label" : "Card-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Job title"
+  }, {
+    "id" : "be52fef0-62a7-654b-d00c-cf01c9883753",
+    "name" : "card_paragraph",
+    "display_width" : null,
+    "label" : "Card paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Name and Surname"
+  }, {
+    "id" : "a10f5724-ed16-5693-6624-e3d2f8c0a7be",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "card_title" : "Job title",
+    "card_paragraph" : "Name and Surname",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  }
+}, {
+  "id" : "b0e4748d-8e9c-9d68-f493-bfbb13d01110",
+  "name" : "second_card",
+  "display_width" : null,
+  "label" : "Second card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "72637deb-caaf-9f06-f855-63927076f3b2",
+    "name" : "card_title",
+    "display_width" : null,
+    "label" : "Card-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Job title"
+  }, {
+    "id" : "34f063e1-74ac-5e61-76b1-bb7745b41660",
+    "name" : "card_paragraph",
+    "display_width" : null,
+    "label" : "Card paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Name and Surname"
+  }, {
+    "id" : "7973b2ec-1d02-fed4-d948-eedd34bd0106",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "card_title" : "Job title",
+    "card_paragraph" : "Name and Surname",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  }
+}, {
+  "id" : "2df28077-0be6-257c-0eea-c0a681182370",
+  "name" : "third_card",
+  "display_width" : null,
+  "label" : "Third card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8172e1a7-f016-842b-a630-e56f371855b1",
+    "name" : "card_title",
+    "display_width" : null,
+    "label" : "Card-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Job title"
+  }, {
+    "id" : "baea6401-b767-3a9c-135a-e09084edb1a0",
+    "name" : "card_paragraph",
+    "display_width" : null,
+    "label" : "Card paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Name and Surname"
+  }, {
+    "id" : "413be107-e159-361a-a29a-c2e260fb392b",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "card_title" : "Job title",
+    "card_paragraph" : "Name and Surname",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  }
+} ]

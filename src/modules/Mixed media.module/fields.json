@@ -1,0 +1,26 @@
+[ {
+  "id" : "efd7ca40-543e-5ac4-6252-5e5da421f610",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "9d0244d8-04f0-dbda-a22f-1e7f0cb1ab90",
+    "name" : "content_direction",
+    "display_width" : null,
+    "label" : "Content direction",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "value 1", "Content right" ], [ "value 2", "Content left" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice"
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : { }
+} ]

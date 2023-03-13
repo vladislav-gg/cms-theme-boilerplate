@@ -1,0 +1,15 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 63505219291,
+  "js_assets" : [ {
+    "autoload" : true,
+    "path" : "../../index.js",
+    "name" : "index.js"
+  }, {
+    "autoload" : true,
+    "path" : "../../sprite.js",
+    "name" : "sprite.js"
+  } ],
+  "is_available_for_new_content" : true
+}

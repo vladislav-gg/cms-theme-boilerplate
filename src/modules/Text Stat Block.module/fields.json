@@ -1,0 +1,261 @@
+[ {
+  "id" : "d1b0c92a-3980-7be0-938a-f8bc12ef9997",
+  "name" : "stats_heading",
+  "display_width" : null,
+  "label" : "Stats heading",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "b3acc1d8-4ddd-5ac1-b50a-7effd1732a39",
+    "name" : "eyebrow",
+    "display_width" : null,
+    "label" : "Eyebrow",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "EYEBROW"
+  }, {
+    "id" : "f1bf889a-d1e2-c47d-3b49-bd8a782fa3c6",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "dee15ecb-c45f-5c54-bb48-624e07276ecf",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "eyebrow" : "EYEBROW",
+    "title" : "Apex title",
+    "paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }
+}, {
+  "id" : "3644dd36-cbde-1479-0e1c-ff50bf2b6998",
+  "name" : "stats_group_1",
+  "display_width" : null,
+  "label" : "Stats group 1",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "f59d6458-3cd9-3cd0-1fc3-fd1b13823ff9",
+    "name" : "stats_value",
+    "display_width" : null,
+    "label" : "Stats-value",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "100%"
+  }, {
+    "id" : "f8aac5ae-9162-5c43-237d-b9de2a09d0d7",
+    "name" : "stats_title",
+    "display_width" : null,
+    "label" : "Stats-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "5c539049-5aab-aa6e-44b5-676607de7724",
+    "name" : "stats_paragraph",
+    "display_width" : null,
+    "label" : "Stats paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "stats_value" : "100%",
+    "stats_title" : "Apex title",
+    "stats_paragraph" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  }
+}, {
+  "id" : "aef8b6b8-857a-37f1-d9de-fbf693a36f0a",
+  "name" : "stats_group_2",
+  "display_width" : null,
+  "label" : "Stats group 2",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "f77b04af-eda1-d620-a7ff-bac6fc654680",
+    "name" : "stats_value",
+    "display_width" : null,
+    "label" : "Stats-value",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "100%"
+  }, {
+    "id" : "c75d4f9f-e1da-1a00-3321-dfcec987e193",
+    "name" : "stats_title",
+    "display_width" : null,
+    "label" : "Stats-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "8c2073ab-751f-25ac-6ac8-0e31f61f2e78",
+    "name" : "stats_paragraph",
+    "display_width" : null,
+    "label" : "Stats paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "stats_value" : "100%",
+    "stats_title" : "Apex title",
+    "stats_paragraph" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  }
+}, {
+  "id" : "cba290e3-29ca-21e8-0193-4b90b84e8d52",
+  "name" : "stats_group_3",
+  "display_width" : null,
+  "label" : "Stats group 3",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "e9ecff27-b513-0566-9485-5934b0f53c4e",
+    "name" : "stats_value",
+    "display_width" : null,
+    "label" : "Stats-value",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "100%"
+  }, {
+    "id" : "c598056c-ba5a-1759-ec8a-ef4afc6ad2be",
+    "name" : "stats_title",
+    "display_width" : null,
+    "label" : "Stats-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "6b356a2e-f27f-cf21-906d-fcfa65ddd2e3",
+    "name" : "stats_paragraph",
+    "display_width" : null,
+    "label" : "Stats paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "stats_value" : "100%",
+    "stats_title" : "Apex title",
+    "stats_paragraph" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  }
+}, {
+  "id" : "7418d9f7-d8f4-3e6e-c1b7-46554587effe",
+  "name" : "stats_group_4",
+  "display_width" : null,
+  "label" : "Stats group 4",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4e015988-a08a-63b1-b5ee-af9e6406c518",
+    "name" : "stats_value",
+    "display_width" : null,
+    "label" : "Stats-value",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "100%"
+  }, {
+    "id" : "e7ab5132-b24c-22f3-102f-a47573a467db",
+    "name" : "stats_title",
+    "display_width" : null,
+    "label" : "Stats-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "f5624727-1f3d-2905-d1ff-3b6bf1b916c6",
+    "name" : "stats_paragraph",
+    "display_width" : null,
+    "label" : "Stats paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "stats_value" : "100%",
+    "stats_title" : "Apex title",
+    "stats_paragraph" : "Export your content and data. Learn how to export HubSpot content and data from your account, such as pages, contacts, and files."
+  }
+} ]

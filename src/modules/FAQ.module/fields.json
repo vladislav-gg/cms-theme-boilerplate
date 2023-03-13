@@ -1,0 +1,25 @@
+[ {
+  "id" : "b2b95a5b-b278-e04a-797a-4b51cc1d7b64",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Layout",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "2e7638a4-6d7e-4961-2bc6-d9135dc05c0e",
+    "name" : "horizontal_layout",
+    "display_width" : null,
+    "label" : "Horizontal layout",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "horizontal_layout" : false
+  }
+} ]

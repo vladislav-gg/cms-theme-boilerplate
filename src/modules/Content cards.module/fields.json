@@ -1,0 +1,193 @@
+[ {
+  "id" : "5617418b-274a-d5a0-6058-f803884902bc",
+  "name" : "heading_group",
+  "display_width" : null,
+  "label" : "Heading group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "f9db6e6f-5c15-d5f4-d2c0-6ef1b53f9f56",
+    "name" : "heading_title",
+    "display_width" : null,
+    "label" : "Heading-title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "JATO title"
+  }, {
+    "id" : "8e7eb77b-af61-fdcf-96af-29621e813a9e",
+    "name" : "heading_paragraph",
+    "display_width" : null,
+    "label" : "Heading-paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }, {
+    "id" : "496ab74a-da58-bde8-e567-17fef095cf67",
+    "name" : "heading_eyebrow",
+    "display_width" : null,
+    "label" : "Heading-eyebrow",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "EYEBROW"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "heading_title" : "JATO title",
+    "heading_paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris.",
+    "heading_eyebrow" : "EYEBROW"
+  }
+}, {
+  "id" : "27bdf84b-1d52-1540-a9e1-eaaea502892a",
+  "name" : "left_card",
+  "display_width" : null,
+  "label" : "Left card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8b1b1c7d-fd3c-eb98-8e63-a2705d4055b4",
+    "name" : "title_1",
+    "display_width" : null,
+    "label" : "Title-1",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "JATO title"
+  }, {
+    "id" : "bef61feb-53e1-41fd-7175-c0ecd6362530",
+    "name" : "paragraph_1",
+    "display_width" : null,
+    "label" : "Paragraph-1",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }, {
+    "id" : "2630f0c6-9cc2-a5df-e8e0-6c8781bba212",
+    "name" : "image_1",
+    "display_width" : null,
+    "label" : "Image-1",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title_1" : "JATO title",
+    "paragraph_1" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris.",
+    "image_1" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  }
+}, {
+  "id" : "17c0ef67-6aa8-6fe0-3df9-00f8033d1f96",
+  "name" : "right_card",
+  "display_width" : null,
+  "label" : "Right card",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "791e25f4-3152-925c-94d6-d3dec3372f51",
+    "name" : "title_2",
+    "display_width" : null,
+    "label" : "Title-2",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "JATO title"
+  }, {
+    "id" : "fdc55d4e-2a5c-9a16-acb9-5176f5e7794f",
+    "name" : "paragraph_2",
+    "display_width" : null,
+    "label" : "Paragraph-2",
+    "required" : false,
+    "locked" : true,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }, {
+    "id" : "e581424a-83c2-5cb1-362f-e8ba75603ff1",
+    "name" : "image_2",
+    "display_width" : null,
+    "label" : "Image-2",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title_2" : "JATO title",
+    "paragraph_2" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris.",
+    "image_2" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+      "alt" : "JATO_brand_lhd_RGB 1",
+      "loading" : "lazy",
+      "width" : 933,
+      "height" : 829,
+      "max_width" : 933,
+      "max_height" : 829
+    }
+  }
+} ]

@@ -1,0 +1,57 @@
+<div class="card-container flex-wrap mt-9">
+  {% if module.styles.image_right %} 
+  <div class="card card--horizontal col-12 align-items-center">
+  <div class="heading heading--left col-12 col-md-5 ">
+    <span class="eyebrow h6">{{ module.card_headings.eyebrow }}</span>
+    <h1 class="heading--title">{{ module.card_headings.title }}</h1>
+    <p class="heading--paragraph h6">{{ module.card_headings.paragraph }}</p>
+    <div class="button-group-wrapper">
+      <button type="button" class="button button--primary">
+      <div class="icon-container-md c-white me-2">
+        <svg>
+            <use xlink:href="#sprite_icon-check"></use>
+        </svg>
+      </div> Button</button>
+      <button type="button" class="button button--secondary ">
+        Call-to-action
+        <div class="icon-container-md c-white ms-2">
+          <svg>
+              <use xlink:href="#sprite_icon-arrow-right"></use>
+          </svg>
+        </div> 
+        </button>
+    </div>
+  </div>
+      <div class="media ar-4-3 col-lg-6">
+        <img class="media-image" alt="our" src="{{ module.card_headings.image_field.src }}">
+      </div>
+  </div>
+  {% else %}
+  <div class="card card__default col-12 align-items-center">
+      <div class="heading heading--center col-12">
+      <span class="eyebrow h6">{{ module.card_headings.eyebrow }}</span>
+      <h1 class="heading--title">{{ module.card_headings.title }}</h1>
+      <p class="heading--paragraph h6">{{ module.card_headings.paragraph }}</p>          
+      <div class="button-group-wrapper__centered">
+      <button type="button" class="button button--primary ">
+      <div class="icon-container-md c-white me-2">
+        <svg>
+            <use xlink:href="#sprite_icon-check"></use>
+        </svg>
+      </div> Button</button>
+      <button type="button" class="button button--secondary ">
+        Call-to-action
+        <div class="icon-container-md c-white ms-2">
+          <svg>
+              <use xlink:href="#sprite_icon-arrow-right"></use>
+          </svg>
+        </div> 
+        </button>
+    </div>
+      <div class="media ar-16-9 mt-4">
+        <img class="media-image" alt="our" src="{{ module.card_headings.image_field.src }}">
+      </div>
+    </div>
+  </div>
+  {% endif %} 
+</div>

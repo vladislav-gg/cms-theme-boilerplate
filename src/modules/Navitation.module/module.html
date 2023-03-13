@@ -1,0 +1,66 @@
+<header class="main--header">
+    <div class="container--nav">
+        <div class="top-navigation-wrapper">
+            <div class="nav__logo">
+                <a href="/" class="logo">
+                    <img src="data:image/svg+xml,%3Csvg width='158' height='37' viewBox='0 0 158 37' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M84.3655 28.7683H70.8849L68.5566 35.7683H59.7209L72.3866 0.768333H82.6543L95.5412 35.7683H86.6472L84.3655 28.7683ZM82.0373 21.9667L77.5204 9.32L73.155 21.9667H82.0373ZM119.802 8.07167H109.802V35.7683H101.443V8.07167H91.5017V0.768333H119.802V8.07167ZM122.235 18.2683C122.235 8.15333 128.672 0.5 138.754 0.5C148.835 0.5 155.436 8.15333 155.436 18.2683C155.436 28.3833 148.684 36.0367 138.754 36.0367C128.626 36.0367 122.235 28.3833 122.235 18.2683ZM147.415 18.2683C147.415 12.435 144.004 8.04833 138.777 8.04833C133.352 8.04833 130.279 12.4 130.279 18.2683C130.279 24.1367 133.352 28.4883 138.777 28.4883C144.202 28.4883 147.392 24.1367 147.392 18.2683H147.415ZM41.4789 34.9633C43.2323 35.7006 45.119 36.0661 47.0202 36.0367C53.842 36.0367 57.7651 31.8367 57.7651 24.475V0.768333H49.3718V23.6117C49.3718 26.6567 48.2076 28.1617 45.2857 28.1617C43.9378 28.2557 42.5906 27.9687 41.3975 27.3333L41.4789 34.9633Z' fill='%23191919'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1.92082 0.768311H33.0031C34.0639 0.768311 34.9239 1.63016 34.9239 2.69331V33.8433C34.9239 34.9065 34.0639 35.7683 33.0031 35.7683H1.92082C0.859979 35.7683 0 34.9065 0 33.8433V2.69331C0 1.63016 0.859979 0.768311 1.92082 0.768311ZM12.6658 25.0002H19.5342L33.2593 17.6619L1.83942 10.6269L17.625 19.6452L12.6658 25.0002Z' fill='%23C40005'/%3E%3C/svg%3E%0A">
+                </a>
+            </div>
+            <div class="nav__mobile-container">
+                <div class="nav__tools-wrapper-tablet d-none d-md-flex align-items-center d-lg-none me-5">
+                    <div class="icon-container-md c-black">
+                        <svg>
+                            <use xlink:href="#sprite_icon-globe"></use>
+                        </svg>
+                    </div>
+                    <div class="divider-vertical px-4 visible-line"><div class="line"></div></div> 
+                    <button type="button" class="button button--primary button--primary__small mt-0 ">Call-to-action</button>
+                </div>
+                <button type="button" class="nav__mobile-menu-toggle d-lg-none">
+                    <div class="icon-container-md c-black">
+                        <svg>
+                            <use xlink:href="#sprite_icon-menu"></use>
+                        </svg>
+                        <svg>
+                            <use xlink:href="#sprite_icon-close"></use>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+        <nav class="nav__main">
+              <ul class="nav__main-menu">
+                {% set node = menu(module.menu) %}
+                  {% for child in node.children %}
+                  <li class="nav__item" aria-haspopup="true">
+                      <a class="nav__top-level-link " href="#">{{ child.label }}                
+                          <div class="icon-container-md c-black">
+                              <svg>
+                                  <use xlink:href="#sprite_icon-arrow-chevron-right"></use>
+                              </svg>
+                          </div>
+                      </a>
+                      {% if child.children %}
+                        <ul class="submenu ">
+                          {% for ch in child.children %}
+                            <li class="submenu__item "><a href="{{ ch.url }}">{{ ch.label }}</a></li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                  </li>
+                {% endfor %}
+
+              </ul>
+        </nav>
+            <div class="nav__tools-wrapper">
+                <div class="icon-container-md c-black d-none d-lg-block">
+                    <svg>
+                        <use xlink:href="#sprite_icon-globe"></use>
+                    </svg>
+                </div>
+                <div class="divider-vertical px-4 visible-line"><div class="line"></div></div> 
+                <button type="button" class="button button--primary button--primary__small mt-lg-0 ">Call-to-action</button>
+            </div>
+    </div>
+</header>
+

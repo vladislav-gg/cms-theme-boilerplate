@@ -1,0 +1,333 @@
+[ {
+  "id" : "8c722d23-4cd5-7d56-8c91-fc0a98c185fb",
+  "name" : "heading_content",
+  "display_width" : null,
+  "label" : "Heading content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "caf1be07-a08e-ced5-f56b-2f014277d15b",
+    "name" : "eyebrow",
+    "display_width" : null,
+    "label" : "Eyebrow",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "EYEBROW"
+  }, {
+    "id" : "002f841b-8808-f4e1-0aa7-a0eceddaa01e",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "68ab3414-cd7f-ecd1-c47b-edd07bc2df30",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "eyebrow" : "EYEBROW",
+    "title" : "Apex title",
+    "paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }
+}, {
+  "id" : "d3b30433-5d2e-962b-34c0-9e65d7b98007",
+  "name" : "card_1_content",
+  "display_width" : null,
+  "label" : "Card 1 content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "15545a2a-2b3b-04ca-7fa2-82185c6b2fe4",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "ca20a9c1-32c9-1950-70b0-0bf7336dc439",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }, {
+    "id" : "43449b67-773d-d528-a626-f1df686ed58e",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Apex title",
+    "paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris.",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }
+}, {
+  "id" : "7f958eba-92c8-c9df-6c63-546874646b43",
+  "name" : "card_2_content",
+  "display_width" : null,
+  "label" : "Card 2 content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "47df0bfc-3552-5dab-bba5-711a7e862d45",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "c24f830e-28b9-d5a8-90f6-dc157a25d6de",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }, {
+    "id" : "51e624d8-7d53-3169-aa11-a715fb9e4907",
+    "name" : "image_field_1",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Apex title",
+    "paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris.",
+    "image_field_1" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }
+}, {
+  "id" : "d51e4841-edd4-8b28-f211-2d111977e6bf",
+  "name" : "card_3_content",
+  "display_width" : null,
+  "label" : "Card 3 content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "d88a6afc-abaf-4886-2fd0-8af6846c08c0",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "eb8a362e-21d9-b2fc-0dda-6617e90b92ff",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }, {
+    "id" : "d52684ff-b9c5-258f-c31b-14678d795d78",
+    "name" : "image_field_2",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Apex title",
+    "paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris.",
+    "image_field_2" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }
+}, {
+  "id" : "fc43ef84-87f0-36a6-8bbb-3cf20a7af475",
+  "name" : "card_4_content",
+  "display_width" : null,
+  "label" : "Card 4 content",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "88fdbc69-3c8f-0eee-87d9-2049b4568926",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Apex title"
+  }, {
+    "id" : "ff8c2cb7-b0ba-a7d3-de4b-c95aca55c169",
+    "name" : "paragraph",
+    "display_width" : null,
+    "label" : "Paragraph",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris."
+  }, {
+    "id" : "7b7b0241-7a7e-4db3-0018-5e6c1cde2d5e",
+    "name" : "image_field_3",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Apex title",
+    "paragraph" : "Lacinia nam sed purus tempor id nunc vulputate. Sapien lorem integer eget quis suspendisse nulla. Ultricies scelerisque et pulvinar odio at mauris.",
+    "image_field_3" : {
+      "size_type" : "auto",
+      "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/Image%20Area%20(right%20side).png",
+      "alt" : "Image Area (right side)",
+      "loading" : "lazy",
+      "width" : 568,
+      "height" : 516,
+      "max_width" : 568,
+      "max_height" : 516
+    }
+  }
+} ]

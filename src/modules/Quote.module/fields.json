@@ -1,0 +1,46 @@
+[ {
+  "id" : "d0e9b8d9-d951-cf51-48b8-9856b7711907",
+  "name" : "image_field",
+  "display_width" : null,
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://26812157.fs1.hubspotusercontent-eu1.net/hubfs/26812157/test-folder/JATO_brand_lhd_RGB%201.png",
+    "alt" : "JATO_brand_lhd_RGB 1",
+    "loading" : "lazy",
+    "width" : 933,
+    "height" : 829,
+    "max_width" : 933,
+    "max_height" : 829
+  }
+}, {
+  "id" : "22f9916b-f3ca-b539-dca7-f72bcca64c86",
+  "name" : "description",
+  "display_width" : null,
+  "label" : "Description",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Elementum aliquam ut elementum tortor enim placerat. Ut eu morbi sed aenean ultrices sed. Amet ut tortor vulputate ullamcorper iaculis venenatis, arcu erat diam. Massa, eu platea congue lectus blandit pellentesque facilisis at lorem."
+}, {
+  "id" : "572dd624-95c2-7624-ed27-4a0fc24a839e",
+  "name" : "quote_name",
+  "display_width" : null,
+  "label" : "Quote name",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Name Surname, Title and company"
+} ]
